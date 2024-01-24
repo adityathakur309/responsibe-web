@@ -14,3 +14,11 @@
     --pcolor:#767f86;
     --acolor:#859098;
 }
+a{
+    text-decoration: none;
+}
+.container-{
+    max-width: 90%;
+    margin: 0 auto;
+
+}

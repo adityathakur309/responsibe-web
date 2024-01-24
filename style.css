@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 }
@@ -17,8 +18,55 @@
 a{
     text-decoration: none;
 }
-.container-{
+.container{
     max-width: 90%;
     margin: 0 auto;
 
 }
+/* home start  */
+#home{
+    height: 100vh;
+    background: url(images/welcome-hero/banner.jpg);
+
+}
+/* header start  */
+header{
+    background-color: var(--textcolor);
+    padding: 1.2rem 0rem;
+    
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav .left{
+    font-size: 2rem;
+}
+nav .left span{
+    color: var(--primarycolor);
+}
+nav .right{
+    display: flex;
+    gap: 2.3rem;
+    padding: 10px 0px;
+}
+nav .right a{
+    font-size:1.1rem;
+    color: var(--acolor);
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+nav .right a:hover{
+    color: var(--primarycolor);
+}
+nav .right i{
+    font-size: 1.5rem;
+    display: none;
+
+}
+
+
+/* header end  */
+/* home end --  */

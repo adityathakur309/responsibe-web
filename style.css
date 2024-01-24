@@ -1,0 +1,16 @@
+/* css reset  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+:root{
+    --primarycolor:#ff545a;
+    --textcolor:#fcfcfc;
+    --black:#343a3f;
+    --h2size:3rem;
+    --pcolor:#767f86;
+    --acolor:#859098;
+}

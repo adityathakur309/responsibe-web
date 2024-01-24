@@ -6,10 +6,16 @@
     
     
     }
-    .m-bot{
+    .mbot{
         margin-bottom: 70px;
     }
-   
+    #home{
+        height: 670px;
+        
+    }
+   #home h1{
+    font-size: 2rem;
+   }
 
 }
 /* tab styling start  */

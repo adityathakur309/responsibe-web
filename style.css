@@ -28,7 +28,7 @@ a{
 }
 /* home start  */
 #home{
-    height: 750px;
+    height: 700px;
     background:url(images/welcome-hero/banner.jpg);
    
    
@@ -43,6 +43,8 @@ a{
 header{
     background-color: var(--textcolor);
     padding: 1.2rem 0rem;
+    position: sticky;
+    top: 0;
     
 
 }
@@ -95,7 +97,7 @@ nav .right i{
 }
 #home .button-sec{
     display: flex;
-    gap: 30px;
+    gap: 15px 30px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -111,37 +113,76 @@ nav .right i{
 
 }
 /* best place end  */
-.bg .bottom-sec {
-display:flex;
-gap: 30px;
+
+
+/* home end --  */
+
+/* howit sec start  */
+.howit-sec  h2{
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 20px;
+
+
 }
-
-.bottom-sec .item{
-    background-color:rgb(255, 255, 255);
-    padding: 1.3rem 1.4rem;
-    flex-basis: 300px;
-    flex-grow: 1;
-    border-radius: 10px;
-
-
-    
+.howit-sec > p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 60px;
 }
-.bottom-sec .item div{
+.howit-sec .card-sec {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.howit-sec .card-sec .card-item{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
-}
-.item div i{
-    font-size:3rem ;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 2rem 1.5rem;
+    align-items:flex-start;
+    transition: all 0.8s;
+    flex-basis: 300px;
+    flex-grow: 1;
+    
+    
+
 
 }
-.item div h4{
-    font-size: 1.2rem;
-}
-.item div p{
-    font-size: 1rem;
-    font-weight: 500;
-}
+.card-sec .card-item:hover{
+background-color: var(--primarycolor);
 
-/* home end --  */
+}
+.card-sec .card-item i{
+    font-size: 3rem;
+    background-color:rgb(238, 242, 246);
+    border: none;
+    padding: 20px;
+    border-radius: 50%;
+    color: var(--pcolor);
+
+
+}
+.card-sec .card-item h4{
+    font-size: 1.4rem;
+    
+
+}
+.card-sec .card-item p{
+    font-size: 1.1rem;
+    font-weight: 400;
+   
+}
+.card-sec .card-item a{
+    color: var(--acolor);
+    font-weight: 200;
+    border: 0.5px solid rgb(0, 0, 0, 0.3);
+    padding: 0.6rem 1.5rem;
+    background-color: #fcfcfc;
+    border-radius: 8px;
+
+}
+/* howit sec end  */

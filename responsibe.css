@@ -16,6 +16,11 @@
    #home h1{
     font-size: 1.5rem;
    }
+   .below-img .logo {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
 
 }
 /* tab styling start  */

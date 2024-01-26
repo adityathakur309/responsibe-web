@@ -1,5 +1,5 @@
 /* css reset  */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,73 +7,88 @@
 
 
 }
-:root{
-    --primarycolor:#ff545a;
-    --textcolor:#fcfcfc;
-    --black:#343a3f;
-    --h2size:4rem;
-    --pcolor:#767f86;
-    --acolor:#859098;
+
+:root {
+    --primarycolor: #ff545a;
+    --textcolor: #fcfcfc;
+    --black: #343a3f;
+    --h2size: 4rem;
+    --pcolor: #767f86;
+    --acolor: #859098;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.container{
+
+.container {
     max-width: 90%;
     margin: 0 auto;
 
 }
-.mbot{
+
+.mbot {
     margin-bottom: 100px;
 }
+
 /* home start  */
-#home{
-    height: 700px;
-    background:url(images/welcome-hero/banner.jpg);
-   
-   
+#home {
+    height: auto;
+    padding-bottom: 50px;
+    background: url(images/welcome-hero/banner.jpg);
+
+
 
 }
-#home .bg{
+
+#home .bg {
     height: 100%;
     background-color: rgba(14, 107, 107, 0.4);
     position: relative;
 }
+
 /* header start  */
-header{
+header {
     background-color: var(--textcolor);
     padding: 1.2rem 0rem;
     position: sticky;
     top: 0;
-    
+
 
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-nav .left{
+
+nav .left {
     font-size: 2rem;
 }
-nav .left span{
+
+nav .left span {
     color: var(--primarycolor);
 }
-nav .right{
+
+nav .right {
     display: flex;
     gap: 2.3rem;
     padding: 10px 0px;
 }
-nav .right a{
-    font-size:1.1rem;
+
+nav .right a {
+    font-size: 1.1rem;
     color: var(--acolor);
     text-transform: uppercase;
     transition: all 0.5s;
 }
-nav .right a:hover{
+
+nav .right a:hover {
     color: var(--primarycolor);
 }
-nav .right i{
+
+nav .right i {
     font-size: 1.5rem;
     display: none;
 
@@ -82,26 +97,30 @@ nav .right i{
 
 /* header end  */
 /* best place start  */
-.best-place{
+.best-place {
     text-align: center;
     color: var(--textcolor);
 }
-.best-place h1{
+
+.best-place h1 {
     font-size: var(--h2size);
     margin-bottom: 30px;
-  
+
 }
-.best-place p{
+
+.best-place p {
     font-size: 1.4rem;
     font-weight: bold;
 }
-#home .button-sec{
+
+#home .button-sec {
     display: flex;
     gap: 15px 30px;
     flex-wrap: wrap;
     justify-content: center;
 }
-#home .button-sec a{
+
+#home .button-sec a {
     color: var(--textcolor);
     background-color: var(--primarycolor);
     padding: 0.8rem 1.3rem;
@@ -112,53 +131,59 @@ nav .right i{
 
 
 }
+
 /* best place end  */
 
 
 /* home end --  */
 
 /* howit sec start  */
-.howit-sec  h2{
+.howit-sec h2 {
     font-size: 1.9rem;
     text-align: center;
     margin-bottom: 20px;
 
 
 }
-.howit-sec > p{
+
+.howit-sec>p {
     text-align: center;
     font-weight: 500;
     font-size: 1.2rem;
     margin-bottom: 60px;
 }
+
 .howit-sec .card-sec {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 
 }
-.howit-sec .card-sec .card-item{
+
+.howit-sec .card-sec .card-item {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 2rem 1.5rem;
-    align-items:flex-start;
+    align-items: flex-start;
     transition: all 0.8s;
     flex-basis: 300px;
     flex-grow: 1;
-    
-    
+
+
 
 
 }
-.card-sec .card-item:hover{
-background-color: var(--primarycolor);
+
+.card-sec .card-item:hover {
+    background-color: var(--primarycolor);
 
 }
-.card-sec .card-item i{
+
+.card-sec .card-item i {
     font-size: 3rem;
-    background-color:rgb(238, 242, 246);
+    background-color: rgb(238, 242, 246);
     border: none;
     padding: 20px;
     border-radius: 50%;
@@ -166,17 +191,20 @@ background-color: var(--primarycolor);
 
 
 }
-.card-sec .card-item h4{
+
+.card-sec .card-item h4 {
     font-size: 1.4rem;
-    
+
 
 }
-.card-sec .card-item p{
+
+.card-sec .card-item p {
     font-size: 1.1rem;
     font-weight: 400;
-   
+
 }
-.card-sec .card-item a{
+
+.card-sec .card-item a {
     color: var(--acolor);
     font-weight: 200;
     border: 0.5px solid rgb(0, 0, 0, 0.3);
@@ -185,4 +213,131 @@ background-color: var(--primarycolor);
     border-radius: 8px;
 
 }
+
 /* howit sec end  */
+/* explore section start  */
+#explore {
+    background-color: #f8fafb;
+    padding: 80px 0px;
+
+}
+
+.explore-section>h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.explore-section>p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.explore-section .explore-card {
+    display: flex;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+}
+
+.explore-section .explore-card .explore-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding-bottom: 20px;
+    flex-basis: 350px;
+    flex-grow: 1;
+}
+
+.explore-item .image-sec {
+    overflow: hidden;
+
+
+}
+
+.explore-item .image-sec img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-sec .hidden {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0.8rem;
+
+    transition: all 0.5s;
+
+
+}
+
+.explore-item:hover .hidden {
+    transform: translateY(-40px);
+}
+
+.hidden a {
+    background-color: var(--primarycolor);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0.7rem;
+    color: var(--textcolor);
+}
+
+.hidden .right-logo {
+    display: flex;
+    gap: 1rem;
+}
+
+.right-logo i {
+    background-color: #343a3f;
+    color: var(--textcolor);
+    padding: 0.3rem;
+}
+
+
+
+.explore-item .rating-form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.explore-item .below-img {
+    padding: 0px 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.explore-item .below-img h4 {
+    font-size: 1.3rem;
+
+}
+
+.below-img .rating-form .rating {
+    border-right: 1px solid rgb(0, 0, 0, 0.5);
+    padding-right: 0.7rem;
+
+}
+
+.below-img .rating-form .s1 {
+    background-color: rgb(138, 43, 226, 0.7);
+    color: var(--textcolor);
+    padding: 0.1rem 0.3rem;
+    border-radius: 5px;
+}
+
+.below-img .logo {
+    display: flex;
+    gap: 0.8rem;
+    
+}
+
+
+
+
+/* explore section end  */

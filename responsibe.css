@@ -21,6 +21,9 @@
     gap: 0.8rem;
     flex-wrap: wrap;
 }
+footer{
+    padding: 3rem 0px;
+}
 
 }
 /* tab styling start  */

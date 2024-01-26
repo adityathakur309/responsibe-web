@@ -4,6 +4,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root {
+    --primarycolor: #ff545a;
+    --textcolor: #fcfcfc;
+    --black: #343a3f;
+    --h2size: 4rem;
+    --pcolor: #767f86;
+    --acolor: #859098;
+}
 .container{
     max-width: 90%;
     margin: 0px auto;
@@ -66,15 +74,78 @@ nav .right i {
 
 
 /* header end  */
+/* form section start */
+.form-section{
+    display: flex;
+    gap: 200px;
+
+    flex-wrap: wrap;
+}
+.form-section h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+}
+.form-section p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--pcolor);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    
+   
+    
+}
+.form-section .item{
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+.form-item label{
+     font-size: 1.1rem;
+     font-weight: 400;
+     
+    
+     
+}
+.form-item .inp{
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin-top: 10px;
+}
+form a{
+    border: none;
+    background-color: var(--primarycolor);
+    color: var(--textcolor);
+    padding: 1rem 0.2rem;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+
+/* form end  */
 
 /* footer section start  */
 footer{
     border-top: 1px solid rgb(0, 0, 0, 0.6);
     padding: 80px 0px;
+   
+
+}
+footer .container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    gap: 1.2rem 0px;
 }
 footer .div{
     font-size: 1.1rem;
@@ -117,6 +188,14 @@ footer .right-foot p{
     }
     .mbot{
         margin-bottom: 70px;
+    }
+    .form-section{
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+    }
+    footer{padding: 3rem 0px;
+
     }
     
 

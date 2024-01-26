@@ -473,10 +473,14 @@ nav .right i {
 footer{
     border-top: 1px solid rgb(0, 0, 0, 0.6);
     padding: 80px 0px;
+    
+
+}
+footer .container{
     display: flex;
     justify-content: space-between;
+    gap: 1.3rem 0px;
     flex-wrap: wrap;
-
 }
 footer .div{
     font-size: 1.1rem;

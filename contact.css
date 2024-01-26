@@ -1,0 +1,137 @@
+/* css reset  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 90%;
+    margin: 0px auto;
+
+}
+.mbot {
+    margin-bottom: 100px;
+}
+a{
+    text-decoration: none;
+}
+
+/* header start  */
+header {
+    background-color: var(--textcolor);
+    padding: 1.2rem 0rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav .left {
+    font-size: 2rem;
+}
+
+nav .left span {
+    color: var(--primarycolor);
+}
+
+nav .right {
+    display: flex;
+    gap: 2.3rem;
+    padding: 10px 0px;
+}
+
+nav .right a {
+    font-size: 1.1rem;
+    color: var(--acolor);
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+nav .right a:hover {
+    color: var(--primarycolor);
+}
+
+nav .right i {
+    font-size: 1.5rem;
+    display: none;
+
+}
+
+
+/* header end  */
+
+/* footer section start  */
+footer{
+    border-top: 1px solid rgb(0, 0, 0, 0.6);
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+footer .div{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--pcolor);
+    
+    
+}
+footer .right-foot{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+footer .right-foot p{
+    transform: translateY(0.7rem);
+}
+.right-foot a{
+    color: #859098;
+}
+
+.right-foot .i{
+    border: none;
+    border-radius: 50%;
+    padding: 0.8rem 0.8rem;
+    background-color:#eef2f6;
+    transition: all 0.5s;
+}
+.right-foot .i:hover{
+    background-color: var(--primarycolor);
+}
+/* footer section end  */
+/* media queries start  */
+@media screen and (max-width:576px){
+    .container{
+        max-width: 100%;
+        margin: 0px auto;
+        padding: 0px 20px;
+    
+    
+    }
+    .mbot{
+        margin-bottom: 70px;
+    }
+    
+
+}
+/* tab styling start  */
+@media screen and (max-width:770px){
+    nav .right a{
+        display:none;
+
+    }
+     .right .fa-solid{
+        display:block;
+    }
+    
+
+}
+/* tab end  */
+/* end    */

@@ -33,9 +33,13 @@ a {
 
 /* home start  */
 #home {
-    height: auto;
-    padding-bottom: 50px;
     background: url(images/welcome-hero/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+   
+
+
 
 
 
@@ -43,8 +47,9 @@ a {
 
 #home .bg {
     height: 100%;
-    background-color: rgba(14, 107, 107, 0.4);
-    position: relative;
+    background-color: rgba(14, 107, 107, 0.6);
+    padding-top: 80px;
+
 }
 
 /* header start  */
@@ -53,6 +58,7 @@ header {
     padding: 1.2rem 0rem;
     position: sticky;
     top: 0;
+    z-index: 1;
 
 
 }
@@ -222,14 +228,14 @@ nav .right i {
 
 }
 
-.explore-section>h2 {
+.explore-section > h2 {
     font-size: 2.8rem;
     margin-bottom: 20px;
     text-align: center;
 
 }
 
-.explore-section>p {
+.explore-section > p {
     font-size: 1.1rem;
     font-weight: 500;
     text-align: center;
@@ -334,7 +340,7 @@ nav .right i {
 .below-img .logo {
     display: flex;
     gap: 0.8rem;
-    
+
 }
 
 

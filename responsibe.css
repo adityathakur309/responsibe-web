@@ -2,7 +2,7 @@
     .container{
         max-width: 100%;
         margin: 0px auto;
-        padding: 0px 15px;
+        padding: 0px 20px;
     
     
     }
@@ -10,7 +10,7 @@
         margin-bottom: 70px;
     }
     #home{
-        height: 670px;
+        height: 650px;
         
     }
    #home h1{
